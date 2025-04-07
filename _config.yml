@@ -3,3 +3,9 @@ name: Sydney Blackmere
 email: w0727107@myscc.ca
 baseurl: "/2025-portfolio"
 
+collections:
+design:
+output: true
+
+photoshop:
+output: true
