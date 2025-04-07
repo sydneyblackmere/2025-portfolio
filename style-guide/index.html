@@ -7,14 +7,18 @@
   <title>Basic Design Sections</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"sans-serif;
       margin: 0;
       padding: 20px;
       background-color: #f9f9f9;
     }
 
     section {
-      margin-bottom: 40px;
+		margin-bottom:40px;
+		padding: 20px;
+		border-radius: 8px;
+      border: 1px solid #ccc;
+		margin-bottom: 40px;
     }
 
     h2 {
@@ -22,9 +26,52 @@
     }
 
     /* Typography  */
-    .typography {
-      font-family: 'Georgia', serif;
-    }
+	  section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Typography Section */
+.typography {
+  display: flex;  /* Use flexbox to align items horizontally */
+  gap: 20px; /* Space between the typography boxes */
+}
+
+.typography .box {
+  flex: 1; /* Each box takes equal space */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+    /* Define the Verve font */
+@font-face {
+    font-family: 'Verve';
+    src: url('assets/fonts/verve.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Define the New York font */
+@font-face {
+    font-family: 'New York';
+    src: url('assets/fonts/newyork.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply Verve font to elements with 'verve' class */
+.verve {
+    font-family: 'Verve', sans-serif;
+}
+
+/* Apply New York font to elements with 'newyork' class */
+.newyork {
+    font-family: 'New York', serif;
+}
+
 
     /* Colours  */
     .color-swatch {
@@ -53,29 +100,45 @@
 	  .light-brown {
 	  background-color: #C4A484;
 	  }
+	  
+	  
   </style>
 </head>
 <body>
 
   <!-- Typography Section -->
-  <section class="typography">
-    <h2>Typography</h2>
-    <div>Verve</div>
-	 
-    <p>This is some sample text to demonstrate the font style.</p> 
-	  <div>New York</div>
-	  <p>This is some sample text to demonstrate the font style.</p> 
-  </section>
+	<h1> Typography </h1>
+   <section class="typography">
+      <div class="box">
+        <h1>Verve</h1>
+        <p class="verve">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+        <p class="verve">abcdefghijklmnopqrstuvwxyz</p>
+        <p class="verve">0123456789</p>
+      </div>
 
+      <div class="box">
+        <h1>New York</h1>
+        <p class="newyork">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+        <p class="newyork">abcdefghijklmnopqrstuvwxyz</p>
+        <p class="newyork">0123456789</p>
+      </div>
+    </section>
+	
+	
   <!-- Images Section -->
-  <section class="images">
-    <h2>Images</h2>
-    <!-- Empty for now -->
-  </section>
+   <h1>Images</h1>
+
+	<section class="images">
+  <div class="placeholder">
+    <p>Image placeholder </p>
+  </div>
+</section>
+
 
   <!-- Colours Section -->
-  <section class="colours">
-    <h2>Colours</h2>
+    <h1>Colours</h1>
+	<section class="colours">
+  
 	  <div class="color-swatch light-brown">#C4A484</div>
     <div class="color-swatch sage-green">#9CAF88</div>
     <div class="color-swatch light-yellow">#FFF9C4</div>
