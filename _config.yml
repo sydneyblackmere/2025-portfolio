@@ -1,11 +1,11 @@
-title: Sydney Blackmere Portfolio 
+title: Sydney Blackmere Portfolio
 name: Sydney Blackmere
 email: w0727107@myscc.ca
 baseurl: "/2025-portfolio"
 
 collections:
-design:
-output: true
-permalink: /:collection/:path/
-photoshop:
-output: true
+  design:
+    output: true
+    permalink: /:collection/:path/
+  photoshop:
+    output: true
