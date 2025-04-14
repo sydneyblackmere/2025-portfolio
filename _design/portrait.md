@@ -1,7 +1,7 @@
 ---
-title: "pesonal portrait"
+title: "Personal Portrait"
 tools: [Photoshop, InDesign]
-description: "A personal portrait of me"
+description: "A personal portrait of me."
 layout: design
 permalink: 
 ---
