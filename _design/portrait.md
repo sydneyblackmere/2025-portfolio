@@ -12,6 +12,6 @@ permalink:
 
 This is a simple portrait of me
 
-### Anothe headline
+### Another headline
 
 more stuff about me.
