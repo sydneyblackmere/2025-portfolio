@@ -6,6 +6,6 @@ baseurl: "/2025-portfolio"
 collections:
 design:
 output: true
-
+permalink: /:collection/:path/
 photoshop:
 output: true
