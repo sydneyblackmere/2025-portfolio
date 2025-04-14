@@ -1,5 +1,5 @@
 ---
-title: "Personal Portrait"
+title: "pesonal portrait"
 tools: [Photoshop, InDesign]
 description: "A personal portrait of me"
 layout: design
@@ -10,8 +10,8 @@ permalink:
 
 # This is me
 
-Portrait of me
+This is a simple portrait of me
 
-### Another headline
+### Anothe headline
 
-more stuff about me
+more stuff about me.
